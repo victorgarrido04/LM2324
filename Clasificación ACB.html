@@ -7,15 +7,14 @@
 </head>
 <style>
 table{
-    border-left: 1px solid rgb(204, 204, 204);
-    border-right: 1px solid rgb(204, 204, 204);
-    border-top: 1px solid rgb(204, 204, 204);
-    border-bottom: 1px solid rgb(204, 204, 204);
     table-layout: fixed;
     text-align: center;
     width: 800px;
     border-collapse: collapse;
-    height: 600px;
+    height: 800px;
+    border-left:1px solid #F1F3F4;
+    border-bottom:1px solid #F1F3F4;
+    border-right:1px solid #F1F3F4;
  }
 
 .jober:hover{
@@ -23,30 +22,42 @@ table{
     background-color: grey;
 }
   
+  .borde{
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+ }
+
+ .flecha:hover{
+    cursor: pointer;
+transform: scale(1.1);
+ }
+
+
+
 </style>
 
 <body style="background-color: white">
     
 <center><table></center>
+    <!--Principio de la tabla-->
+<tr  style="font-size: xx-large; text-align: left;"><th class="borde" style="padding-left: 25px; padding-top: 20px;background-color: #212121;color: white;" colspan="12">Clasificación liga ACB</th></tr>
     
-<tr style="font-size: xx-large; text-align: left;"><th style="padding-left: 25px; padding-top: 20px;background-color: black;color: white;" colspan="12">Clasificación liga ACB</th></tr>
-    
-<tr style="height: 75px; font-size: large; background-color: black;color: white;">
+<tr style="height: 75px; font-size: large; background-color: #212121;color: #D3D3D3;">
 
 <td colspan="3">PARTIDOS</td>
 <td colspan="3">NOTICIAS</td>
-<td colspan="3">CLASIFICACIÓN</td>
+<td style="color: white;" colspan="3"><b>CLASIFICACIÓN</b></td>
 <td colspan="3">JUGADORES</td>
 
 </tr>
 
 <tr>
 
-<td colspan="12" style="padding-top: 10px; background-color: #F1F3F4;text-align: left;padding-left: 35px;">Temporada<br><b>2023-24</b></td>
+<td colspan="12" style="padding-top: 10px; background-color: #F1F3F4;text-align: left;padding-left: 35px;"><span style="color: #888888;">Temporada</span><br><b>2023-24</b></td> 
 
 </tr>
    
-<tr style="font-size: large;">
+<tr style="font-size: large; color: #888888;">
 
 <td style="text-align: left; padding-left: 25px;padding-top: 15px;" colspan="6">Equipo</td>
 <td style="padding-top: 15px;">PJ</td>
@@ -92,15 +103,14 @@ table{
 <td>432</td>
 <td>408</td>
 <td>24</td>
-    
+  
 </tr>
 
+<tr>
 
-    
+<td class="flecha" colspan="12" style=""><a href="https://www.google.com/search?q=Clasificaci%C3%B3n+liga+ACB&rlz=1C1PNRB_enES1076ES1076&oq=Clasificaci%C3%B3n+liga+ACB&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDzSAQcyODdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8&safe=active&ssui=on#sie=lg;/g/11svptq4nm;3;/m/04mds4;st;fp;1;;;" target="_blank" rel="noopener noreferrer"><img src="tema2/Images/flecha_vermas.png" alt=""></a></td>
 
-
-
-
+</tr>
 
 
 
