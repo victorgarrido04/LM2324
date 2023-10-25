@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de pago</title>
+</head>
+<style>
+    .rellenar{
+        background-color: #F7F7F7;
+        border: 1px solid #D1D1D1 ;
+    }
+
+    .pago{
+        background-color: #1A1A1A;
+        color: white;
+        width: 125px;
+        height: 30px;
+    }
+    form{
+        width: 40%;
+    }
+</style>
+<body>
+    <form action="">
+    <fieldset>
+        
+        <p><strong>FORMULARIO DE PAGO</strong> (Los campos obligatorios estan marcados con *)</p><br>
+        
+        <fieldset class="centro">
+                
+            <legend><strong>Información de contacto</strong></legend><br>
+        
+        <fieldset>
+                
+            <legend>Profesión</legend><br>
+                <input type="radio" name="profesion" value="profesor" id="">Profesor/a <br>
+                <input type="radio" name="profesion" value="estudiante" id="">Estudiante <br>
+                <input type="radio" name="profesion" value="otro" id="">Otro <br>
+        
+        </fieldset><br>
+            
+        <fieldset>
+            
+            <legend>Tratamiento</legend>
+                <input type="radio" name="tratamiento" id="sr">Sr/Sra <br>
+                <input type="radio" name="tratamiento" id="dr">Dr/Dra <br>
+                <input type="radio" name="tratamiento" id="otro">Otro <br>
+        
+        </fieldset><br>
+
+        <label for="">Nombre: <span style="color: red;">*</span></label><br>
+                <input type="text" class="rellenar" required><br>
+
+            <label for="">Correo: <span style="color: red;">*</span></label><br>
+                <input type="text" class="rellenar" required><br>
+
+            <label for="">Número de teléfono: <span style="color: red;">*</span></label><br>
+                <input type="text" class="rellenar" required><br>
+
+            <label for="">Contraseña: <span style="color: red;">*</span></label><br>
+                <input type="text" class="rellenar" required><br>
+            
+        </fieldset> <br>
+
+        <fieldset>
+            
+            <legend><strong>Información de pago</strong></legend>
+            <label for="">Tipo de tarjeta:</label>
+            <select name="" id="">
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="americanexpress">American Express</option>
+            </select><br><br>
+
+            <label for="">Número de la tarjeta: <span style="color: red;">*</span></label><br>
+                <input type="text" class="rellenar" required><br>
+
+            <label for="">Fecha de caducidad: <span style="color: red;">*</span></label><br>
+                <input style="width: 172px;" type="date" name="" id="" class="rellenar"><br><br>
+
+            <label for="">Cuenta de paypal: <span style="color: red;">*</span></label><br>
+                <input type="email" name="paypal" id="" class="rellenar"><br><br>
+
+            <label for="">Método de pago preferido: </label>
+                <select name="metododepago" id="">
+                    <option value="tarjeta">Tarjeta de crédito</option>
+                    <option value="paypal">Paypal</option>
+                </select>
+
+        </fieldset><br>
+
+        <input type="submit" value="VALIDAR PAGO" class="pago">
+               
+
+
+        
+
+            
+        
+    </fieldset>
+</form>
+</body>
+</html>
+
