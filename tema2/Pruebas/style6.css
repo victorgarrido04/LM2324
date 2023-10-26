@@ -1,9 +1,22 @@
-p{
-    color: white;
-    font-size: xx-large;
-    
+body{
+    background-color: rgb(255, 255, 255);
 }
 
-body{
-    background-color: black;
+p{
+    color: lightslategrey;
+    font-size: x-large;
+}
+
+h1{
+    font-size: xx-large;
+    color: lightcoral;
+}
+
+h2{
+    color: lightgreen;
+}
+
+.parraf2{
+color: black;
+font-size: smaller;
 }
