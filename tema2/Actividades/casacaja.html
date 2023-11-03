@@ -22,7 +22,7 @@ border: none;
     position: absolute;
     width: 100%;
     top: 750px;
-    height: 140px;
+    height: 157px;
     border: none;
 }
 
@@ -31,87 +31,87 @@ border: none;
     width: 650px;
     height: 350px;
     position: absolute;
-    top: 400px;
+    top: 430px;
     left: 350px;
 }
 
 #vent1{
-    background-color: skyblue;
-    width: 25px;
-    height: 25px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
     position: absolute;
-    top: 475px;
-    left: 455px;
+    top: 495px;
+    left: 450px;
     border: black solid 5px;
 }
 
 #vent2{
-    background-color: skyblue;
-    width: 25px;
-    height: 25px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
     position: absolute;
-    top: 475px;
-    left: 490px; 
+    top: 495px;
+    left: 405px; 
     border: black solid 5px;
 }
 
 #vent3{
-    background-color: skyblue;
-    width: 25px;
-    height: 25px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
     position: absolute;
-    top: 508px;
-    left: 490px; 
+    top: 540px;
+    left: 405px; 
     border: black solid 5px;
 }
 
 #vent4{
-    background-color: skyblue;
-    width: 25px;
-    height: 25px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
     position: absolute;
-    top: 508px;
-    left: 455px; 
+    top: 540px;
+    left: 450px; 
     border: black solid 5px;
 }
 
 #vent5{
-    background-color: skyblue;
-    width: 25px;
-    height: 25px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
     position: absolute;
-    top: 475px;
-    left: 865px; 
+    top: 495px;
+    left: 855px; 
     border: black solid 5px;
 }
 
 #vent6{
-    background-color: skyblue;
-    width: 25px;
-    height: 25px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
     position: absolute;
-    top: 475px;
-    left: 830px; 
+    top: 495px;
+    left: 900px; 
     border: black solid 5px;
 }
 
 #vent7{
-    background-color: skyblue;
-    width: 25px;
-    height: 25px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
     position: absolute;
-    top: 508px;
-    left: 830px; 
+    top: 540px;
+    left: 855px; 
     border: black solid 5px;
 }
 
 #vent8{
-    background-color: skyblue;
-    width: 25px;
-    height: 25px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
     position: absolute;
-    top: 508px;
-    left: 865px; 
+    top: 540px;
+    left: 900px; 
     border: black solid 5px;
 }
 
@@ -122,7 +122,7 @@ border: none;
     height: 150px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    top: 598px;
+    top: 628px;
     left: 625px;
     border-left: black solid 2px;
     border-right: black solid 2px;
@@ -135,28 +135,28 @@ position: absolute;
 width: 15px;
 height: 15px;
 border-radius: 100%;
-top: 670px;
+top: 700px;
 left: 700px;
 }
 
 #sol{
     background-color: yellow;
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     border-radius: 100%;
-    left: 1100px;
-    top: 150px;
+    left: 1111px;
+    top: 40px;
 }
 
 #tejado{
-    width: 600px;
-    height: 100px;
-    border-right: 50px solid transparent;
-    border-bottom: 100px solid burlywood;
-    border-left: 50px solid transparent;
+    width: 0;
+    height: 0;
+    border-right: 350px solid transparent;
+    border-bottom: 200px solid burlywood;
+    border-left: 350px solid transparent;
     position: absolute;
-    top: 250px;
+    top: 230px;
     left: 325px;
 }
 
@@ -187,7 +187,7 @@ left: 700px;
     position: absolute;
     width: 30px;
     height: 30px;
-    top: 550px;
+    top: 580px;
     left: 664px;
     border-radius: 45%;
     border: black solid 2px;
@@ -195,7 +195,7 @@ left: 700px;
 
 p{
     position: absolute;
-    top: 542px;
+    top: 572px;
     left: 673px;
     color: black;
 }
@@ -209,13 +209,34 @@ img{
     width: 30px;
     height: 30px;
 }
+
+body{
+    margin: 0;
+}
+
+#entrada{
+    width: 73px;
+    height: 290px;
+    border-right: 100px solid transparent;
+    border-bottom: 150px solid grey;
+    border-left: 100px solid transparent;
+    position: absolute;
+    top: 467px;
+    left: 540px;
+}
     </style>
 
 </head>
 <body>
     <div id="cielo"></div>
     <div id="cesped"></div>
+    <div id="sol"></div>
+    <div id="tronco"></div>
+    <div id="ramas"></div>
+    <div id="entrada"></div>
     <div id="casa"></div>
+    <div id="tejado"></div>
+    <div id="portal"></div>
     <div id="vent1"></div>
     <div id="vent2"></div>
     <div id="vent3"></div>
@@ -226,11 +247,8 @@ img{
     <div id="vent8"></div>
     <div id="puerta"></div>
     <div id="pomo"></div>
-    <div id="sol"></div>
-    <div id="tejado"></div>
-    <div id="tronco"></div>
-    <div id="portal"></div>
-    <div id="ramas"></div>
+    
+
     <div id="pajaro"><img src="../Images/golondrina.png" alt=""></div>
     <p><b>13</b></p>
     
