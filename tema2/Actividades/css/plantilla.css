@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+
+#header{
+    position: fixed;
+        background-image: url(/tema2/Images/satisfyer.png);
+        width: 100%;
+        height: 300px;
+        top: 0px;
+        z-index: 1;
+        background-repeat: no-repeat;
+        background-size: 1280px 200px;
+}
+
+#p1{
+    position: relative;
+    top: 225px;
+}
