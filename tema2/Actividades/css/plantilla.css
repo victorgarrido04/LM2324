@@ -2,8 +2,8 @@ body{
     margin: 0;
 }
 
-#header{
-    position: fixed;
+#banner1{
+        position: fixed;
         background-image: url(/tema2/Images/satisfyer.png);
         width: 100%;
         height: 300px;
@@ -13,7 +13,32 @@ body{
         background-size: 1280px 200px;
 }
 
+#banner2{
+        position: relative;
+        background-image: url(/tema2/Images/bannergetcertified.png);
+        width: 180px;
+        height: 707px;
+        top: 200px;
+        left: 1100px;
+        z-index: 0;
+        background-repeat: no-repeat;
+        background-size:180px 707px;
+}
+
 #p1{
     position: relative;
-    top: 225px;
+    top: -750px;
+    left: 700px;
+    width: 400px;
+}
+
+#img1{
+    background-image: url(/tema2/Images/img1.jpg);
+    position: relative;
+    width: 480px;
+    height: 270px;
+    top: -450px;
+    left: 80px;
+    
+    border: 3px solid black;
 }
