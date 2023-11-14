@@ -19,7 +19,7 @@ body{
         width: 180px;
         height: 707px;
         top: 200px;
-        left: 1100px;
+        left: 1083px;
         z-index: 0;
         background-repeat: no-repeat;
         background-size:180px 707px;
@@ -27,9 +27,9 @@ body{
 
 #p1{
     position: relative;
-    top: -750px;
-    left: 650px;
-    width: 400px;
+    top: -1030px;
+    left: 600px;
+    width: 470px;
 }
 
 #img1{
@@ -37,8 +37,25 @@ body{
     position: relative;
     width: 480px;
     height: 270px;
-    top: -450px;
+    top: -470px;
     left: 80px;
-    
     border: 3px solid black;
+}
+
+#p2{
+    position: relative;
+    top: -1000px;
+    left: 10px;
+    width: 1050px;
+}
+
+#img2{
+    background-image: url(/tema2/Images/im2.jpg);
+    position: relative;
+    width: 300px;
+    height: 180px;
+    top: -270px;
+    left: 370px;
+    border: 3px solid black;
+    background-repeat: ;
 }
