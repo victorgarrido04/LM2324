@@ -2,60 +2,79 @@ body{
     margin: 0;
 }
 
+
 #banner1{
-        position: fixed;
-        background-image: url(/tema2/Images/satisfyer.png);
-        width: 100%;
-        height: 300px;
-        top: 0px;
-        z-index: 1;
-        background-repeat: no-repeat;
-        background-size: 1280px 200px;
+    position: fixed;
+    z-index: 1;
+    background-image: url(/tema2/Images/satisfyer.png);
+    width: 1257px;
+    height: 300px;
+    background-size: 1257px 300px;
+    top: 0px;
+    background-repeat: no-repeat;
+    border: solid black 3px;
 }
 
 #banner2{
-        position: relative;
-        background-image: url(/tema2/Images/bannergetcertified.png);
-        width: 180px;
-        height: 707px;
-        top: 200px;
-        left: 1083px;
-        z-index: 0;
-        background-repeat: no-repeat;
-        background-size:180px 707px;
+    position: relative;
+    z-index: 0;
+    background-image: url(/tema2/Images/bannergetcertified.png);
+    width: 180px;
+    height: 900px;
+    background-size: 180px 900px;
+    top: 303px;
+    left: 1077px;
+    background-repeat: no-repeat;
+    border: solid black 3px;
+}
+
+#img1{
+    position: relative;
+    z-index: 0;
+    background-image: url(/tema2/Images/img1.jpg);
+    width: 400px;
+    height: 300px;
+    background-size: 400px 300px;
+    top: -550px;
+    left: 20px;
+    border: solid black 3px;
 }
 
 #p1{
     position: relative;
-    top: -1030px;
-    left: 600px;
-    width: 470px;
-}
-
-#img1{
-    background-image: url(/tema2/Images/img1.jpg);
-    position: relative;
-    width: 480px;
-    height: 270px;
-    top: -470px;
-    left: 80px;
-    border: 3px solid black;
+    z-index: 0;
+    top: -855px;
+    left: 450px;
+    width: 600px;
+    height: 300px;
 }
 
 #p2{
     position: relative;
-    top: -1000px;
-    left: 10px;
+    z-index: 0;
+    top: -830px;
+    left: 20px;
     width: 1050px;
+    height: 20px;
 }
 
 #img2{
-    background-image: url(/tema2/Images/im2.jpg);
     position: relative;
-    width: 300px;
-    height: 180px;
-    top: -270px;
-    left: 370px;
-    border: 3px solid black;
-    background-repeat: ;
+    z-index: 0;
+    background-image: url(/tema2/Images/im2.jpg);
+    width: 400px;
+    height: 300px;
+    background-size: 400px 300px;
+    top: -670px;
+    left: 650px;
+    border: solid black 3px;
+}
+
+#p3{
+    position: relative;
+    z-index: 0;
+    top: -980px;
+    left: 20px;
+    width: 610px;
+    height: 300px;
 }
