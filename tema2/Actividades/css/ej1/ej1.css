@@ -23,7 +23,7 @@ article, aside, footer, header {
     box-sizing: border-box;
   }
 
-#header{
+header{
     background-color: #b28306;
     color: #4c3803;
     text-align: center;

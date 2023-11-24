@@ -1,0 +1,23 @@
+html{
+    background-color:lightgrey;
+    background: url("/tema2/Images/bg.jpg") no-repeat center center fixed;
+    font-family: 'Trebuchet MS', 'Geneva', sans-serif;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover; 
+}
+
+header{
+    background-color: #b28306;
+    color: #4c3803;
+    text-align: center;
+    border-bottom: 1px solid;
+    border-radius: 20px;
+    order: 1;
+    padding: 1rem;
+}
+
+body{
+    margin: 0;
+}
