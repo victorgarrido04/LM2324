@@ -30,6 +30,8 @@ article, aside, footer, header {
     border-bottom: 1px solid;
     border-radius: 20px;
     order: 1;
+    padding: 1rem;
+    
 }
 
 nav{
@@ -37,7 +39,7 @@ nav{
   order: 2;
   background-color: #ebcd7c;
   border-radius: 20px;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 nav a{
@@ -83,7 +85,7 @@ aside{
       border-bottom: 0.5rem solid;
     }
     nav {
-      order: 3;
+      order: 1;
     }
     header {
       order: 1;
