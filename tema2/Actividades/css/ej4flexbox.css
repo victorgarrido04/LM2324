@@ -1,0 +1,97 @@
+main{
+    display: flex;
+    color: white;
+    font-size: xxx-large;
+    font-weight: bold;
+    flex-direction: row;
+    background-color: white;
+    width: ;
+    height: ;
+    text-align: center;
+    border: solid red 4px;
+    flex-wrap: wrap;
+}
+
+body{
+    margin: 0;
+}
+
+#n1{
+    width: ;
+    height: ;
+    background-color: #1ABC9C;
+    flex: 1;
+    order: 2;
+}
+
+#n2{
+    width: ;
+    height: ;
+    background-color: #3498DB;
+    flex: 1;
+    order: 3;
+}
+
+#n3{
+    width: ;
+    height: ;
+    background-color: #9B59B6;
+    flex: 1;
+    order: 4;
+}
+
+#n4{
+    width: ;
+    height: ;
+    background-color: #34495E;
+    flex: 1;
+    order: 5;
+}
+
+#n5{
+    width: ;
+    height: ;
+    background-color: #F1C40F;
+    flex: 1;
+    order: 1;
+}
+
+#n6{
+    width: ;
+    height: ;
+    background-color: #E67E22;
+    flex: 1;
+    order: 10;
+}
+
+#n7{
+    width: ;
+    height: ;
+    background-color: #E74C3C;
+    flex: 1;
+    order: 6;
+}
+
+#n8{
+    width: ;
+    height: ;
+    background-color: #BDC3C7;
+    flex: 1;
+    order: 7;
+}
+
+#n9{
+    width: ;
+    height: ;
+    background-color: #2ECC71;
+    flex: 1;
+    order: 8;
+}
+
+#n10{
+    width: ;
+    height: ;
+    background-color: #16A085;
+    flex: 1;
+    order: 9;
+}
