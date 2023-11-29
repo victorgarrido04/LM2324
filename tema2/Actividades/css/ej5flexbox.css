@@ -9,7 +9,7 @@ main{
     height: 866px;
     text-align: center;
     border: solid red 4px;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
 body{
@@ -18,40 +18,59 @@ body{
 
 #n1{
     background-color: #1ABC9C;
+    height: 40px;
 }
 
 #n2{    
     background-color: #3498DB;
+    height: 40px;
+    margin-top: 50px;
 }
 
 #n3{
     background-color: #9B59B6;
+    height: 40px;
+    margin-top: 51.6px;
 }
 
 #n4{
     background-color: #34495E;
+    height: 40px;
+    margin-top: 51.6px;
 }
 
 #n5{
     background-color: #F1C40F;
+    height: 40px;
+    margin-top: 51.6px;
 }
 
 #n6{
     background-color: #E67E22;
+    height: 40px;
+    margin-top: 51.6px;
 }
 
 #n7{
     background-color: #E74C3C;
+    height: 40px;
+    margin-top: 51.6px;
 }
 
 #n8{
     background-color: #BDC3C7;
+    height: 40px;
+    margin-top: 51.6px;
 }
 
 #n9{
     background-color: #2ECC71;
+    height: 40px;
+    margin-top: 51.6px;
 }
 
 #n10{
     background-color: #16A085;
+    height: 40px;
+    margin-top: 51.6px;
 }
