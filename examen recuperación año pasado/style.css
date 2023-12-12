@@ -1,0 +1,129 @@
+@import url('https://fonts.cdnfonts.com/css/century-gothic-paneuropean');
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: "Century Gothic Paneuropean", Arial, Helvetica,sans-serif;
+    min-height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white; 
+}
+
+header{
+    width: 100%;
+    background-color: darkgrey;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 20;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.elementos{
+    width: 20%;
+    background-color: darkcyan;
+    padding: 20px;
+    margin: 0px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.elementos a{
+    text-decoration: none;
+    color: white;
+}
+
+.elementos:hover{
+    cursor: progress;
+}
+
+.elementos a:hover{
+    cursor: progress;
+}
+
+.elementos p{
+    margin: 0.5em 1em;
+}
+
+hr{
+    width: 100%;
+}
+
+.texto{
+    width: 80%;
+    background-color: darkolivegreen;
+    color: white;
+    padding: 20px;
+    margin: 20;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+
+img{
+    float: left;
+    margin-top: 30px;
+    margin-right: 30px;
+    border-radius: 2vh;
+    border: 5px solid goldenrod;
+    max-width: 100%;
+}
+
+.principal::first-letter{
+    font-size: 200%;
+    color: darkgray;
+}
+
+footer{
+    background-color: darkgoldenrod;
+    color: white;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20;
+    border: 2px solid whitesmoke;
+}
+
+@media only screen and (max-width: 640px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .elementos {
+        width: 100%;
+    }
+
+    .texto {
+        width: 100%;
+    }
+}
+
+@media print {
+    * {
+        background-color: white;
+    }
+
+    .elementos {
+        display: none;
+    }
+
+    .texto {
+        width: 100%;
+    }
+    
+}
