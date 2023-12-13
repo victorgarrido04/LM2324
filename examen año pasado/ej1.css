@@ -1,0 +1,14 @@
+html{
+    background-color: lightgrey;
+    font-family: trevuchet, Geneva, sans-serif;
+    background: url(/tema2/Images/bg.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body{
+    margin: 0;
+}
+
