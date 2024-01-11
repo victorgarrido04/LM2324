@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="circulos.js"></script>
+    <style>
+    #contenedor{
+        display: flex;
+    }
+
+    #rojo{
+        position: relative;
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        background-color: red;
+        top: 0px;
+        margin: 10px 10px;
+    }
+
+    #azul{
+        position: relative;
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        background-color: blue;
+        margin: 10px 10px;
+    }
+
+    #verde{
+        position: relative;
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        background-color: green;
+        margin: 10px 10px;
+    }
+
+    #botonrojo{
+        position: relative;
+        margin: 10px 28px;
+    }
+
+    #botonazul{
+        position: relative;
+        margin: 10px 28px;
+    }
+
+    #botonverde{
+        position: relative;
+        margin: 10px 28px;
+    }
+
+
+</style>
+</head>
+<body>
+<div id="contenedor">
+    <div id="rojo"></div>
+    <div id="azul"></div>
+    <div id="verde"></div>
+</div>
+        <button onclick="borrarojo()" id="botonrojo">Ocultar</button>
+        <button onclick="borraazul()" id="botonazul">Ocultar</button>
+        <button onclick="borraverde()" id="botonverde">Ocultar</button>
+      
+   
+</body>
