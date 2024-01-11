@@ -11,3 +11,16 @@ function borraverde() {
     document.getElementById("verde").style.visibility='hidden';
 }
 
+function mostrarrojo() {
+    document.getElementById("rojo").style.visibility='visible';
+}
+
+function mostrarazul() {
+    document.getElementById("azul").style.visibility='visible';
+}
+
+
+function mostrarverde() {
+    document.getElementById("verde").style.visibility='visible';
+}
+
