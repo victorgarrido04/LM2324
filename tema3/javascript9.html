@@ -6,15 +6,18 @@
     <title>Javascript 9</title>
 </head>
 <body>
-    <h1>Escribe tu nombre:</h1>
+    <h1>Inicio de sesión:</h1>
 
-    <input type="text" id="entrada_texto">
-    <button onclick="saludo()">Salúdame</button>
+    <input type="text" id="entrada_texto" placeholder="Usuario"><br><br>
+    <input type="password" id="contrasena" placeholder="Contraseña">
+    <button onclick="saludo()">Entrar</button>
     <script>
     function saludo(){
         var cadena;
+        var contra;
         cadena= document.getElementById("entrada_texto").value;
-        alert('Hola ' + cadena);
+        contra= document.getElementById("contrasena").value;
+        alert('Hola ' + cadena + " con contraseña " + contra);
     }
     </script>
 </body>
