@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript 9</title>
+    <title>Prueba de variable global</title>
 </head>
 <body>
-    <h1>Inicio de sesión:</h1>
+    <h1>Prueba de variable global</h1>
+    <button onclick="sumar()">Incrementa</button>
+    <button onclick="restar()">Decrementa</button>
+    <p id="demo"></p>
 
-    <input type="text" id="entrada_texto" placeholder="Usuario"><br><br>
-    <input type="password" id="contrasena" placeholder="Contraseña">
-    <button onclick="saludo()">Entrar</button>
     <script>
-    function saludo(){
-        var cadena;
-        var contra;
-        cadena= document.getElementById("entrada_texto").value;
-        contra= document.getElementById("contrasena").value;
-        alert('Hola ' + cadena + " con contraseña " + contra);
-    }
+        var numero=0;
+        function sumar(){
+            numero+=1;
+            document.getElementById("demo").innerHTML = numero;
+        }
+        function restar(){
+            numero-=1;
+            document.getElementById("demo").innerHTML = numero;
+        }
     </script>
 </body>
 </html>
