@@ -8,8 +8,8 @@
 <body>
     <h1>Inicio de sesión:</h1>
 
-    <input type="text" id="entrada_texto" placeholder="Usuario"><br><br>
-    <input type="password" id="contrasena" placeholder="Contraseña">
+    <input type="text" id="entrada_texto" placeholder="Usuario" onkeypress="submitName(event);"><br><br>
+    <input type="password" id="contrasena" placeholder="Contraseña" onkeypress="submitName(event);">
     <button onclick="saludo()">Entrar</button>
     <script>
     function saludo(){
@@ -17,8 +17,33 @@
         var contra;
         cadena= document.getElementById("entrada_texto").value;
         contra= document.getElementById("contrasena").value;
+
+        if(cadena== "" || contra== "")
+        {
+            alert('Introduzca un usuario y una contraseña')
+        }
+        else{
         alert('Hola ' + cadena + " con contraseña " + contra);
-    }
+        } 
+        }  
+   
+
+    function submitName(e) { 
+        var cadena;
+        var contra;
+        cadena= document.getElementById("entrada_texto").value;
+        contra= document.getElementById("contrasena").value;
+
+        if (e.code === 'Enter')
+        {
+            alert('Hola ' + cadena + " con contraseña " + contra)
+        }
+        }  
+    
+            
+    
+        
+    
     </script>
 </body>
 </html>
