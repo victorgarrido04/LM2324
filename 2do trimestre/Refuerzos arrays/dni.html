@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transformador de Texto</title>
+</head>
+<body>
+<div>
+    <h1>Sin espacios y en mayúsculas</h1>
+    <input type="text" id="textoInput" placeholder="Escribe algo...">
+    <button onclick="transformarTexto()">Transformar</button>
+    <p><div id="resultado"></div></p>
+</div>
+
+<script>
+function transformarTexto() {
+    const textoInput = document.getElementById("textoInput").value;
+    const textoTransformado = textoInput.replace(/\s/g, "").toUpperCase();
+    document.getElementById("resultado").textContent = textoTransformado;
+}
+</script>
+</body>
+</html>
