@@ -21,7 +21,9 @@
         }
 
         function cargaPagina(){
-            
+            let valor=localStorage.getItem("Information")
+            if (valor!=null)
+                alert("Bienvenido "+valor);
         }
 
         window.onload=cargaPagina()
