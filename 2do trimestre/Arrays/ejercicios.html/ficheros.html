@@ -8,13 +8,15 @@
 <body>
     <h1>Descargas</h1>
     <ul id="lista"></ul>
+    <button type="button" onclick="crearPagina()">Añade elemento</button>
     <script>
         function crearPagina(){
             var lista= document.getElementById("lista");
-            for (var i=1;i<=20;i++)
+            for (var i=1;i<=20;i++){
                 var elemento= document.createElement("li");
                 elemento.innerHTML= "<a href='ficheros/fichero"+i+ ".pdf' target='_blank'>Fichero" + (lista.children.length + 1) + "<img width='25' src='download.png'></a>";
                 lista.appendChild(elemento);
+            }
         }
         window.onload=crearPagina();
     </script>
