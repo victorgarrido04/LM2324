@@ -11,31 +11,31 @@
     <button id="temaclaro">Tema Claro</button>
     <button id="temaoscuro">Tema Oscuro</button>
     <script>
-        // Función para establecer el tema claro
+        // Función para establecer el tema claro.
         function setTemaClaro() {
             document.body.style.backgroundColor = "#fff";
             document.body.style.color = "#000";
-            localStorage.setItem("theme", "light"); // Guardar tema en localStorage
+            localStorage.setItem("theme", "light"); // Guardar localStorage.
         }
 
         // Función para establecer el tema oscuro
         function setTemaOscuro() {
             document.body.style.backgroundColor = "#333";
             document.body.style.color = "#fff";
-            localStorage.setItem("theme", "dark"); // Guardar tema en localStorage
+            localStorage.setItem("theme", "dark"); // Guardar localStorage.
         }
 
-        // Verificar el tema guardado en localStorage al cargar la página
+        // Comprobar si hay algun localStorage guardado previamente.
         document.addEventListener("DOMContentLoaded", function() {
             const temaGuardado = localStorage.getItem("theme");
             if (temaGuardado === "dark") {
                 setTemaOscuro();
             } else {
-                setTemaClaro(); // Por defecto, tema claro
+                setTemaClaro(); // Tema claro predeterminado.
             }
         });
 
-        // Asignar eventos de clic a los botones
+        // Eventos de click a los elementos.
         document.getElementById("temaclaro").addEventListener("click", setTemaClaro);
         document.getElementById("temaoscuro").addEventListener("click", setTemaOscuro);
     </script>
