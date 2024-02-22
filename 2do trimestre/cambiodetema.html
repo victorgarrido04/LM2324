@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio de tema</title>
+</head>
+<body>
+    <h1>Cambia el tema</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus tempore magnam commodi dolore eligendi ea fugit animi assumenda inventore sit deserunt ut, numquam obcaecati quod provident atque officiis pariatur quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat necessitatibus sapiente repudiandae nesciunt dolores voluptate facere dignissimos natus perspiciatis earum vel excepturi perferendis est quia, praesentium, alias autem quis saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque molestiae asperiores eos mollitia, ducimus doloribus modi sit veritatis harum quibusdam numquam quos dolorem fugiat, aliquid voluptate facere molestias, sint blanditiis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos consectetur iusto cumque officiis magnam repellendus at rerum praesentium possimus quaerat quas cum adipisci doloremque saepe, animi maxime dolor perspiciatis debitis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, molestias nisi. Ab, repudiandae doloribus similique et autem expedita enim, aspernatur magni corporis velit asperiores necessitatibus veritatis nesciunt, molestiae dolores aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur inventore nostrum, cum tempore, temporibus a saepe deserunt optio voluptas veritatis adipisci, maxime possimus laborum voluptate quisquam pariatur minus hic eos! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis aut recusandae culpa dicta odit vitae quas blanditiis quaerat dolorem. Deserunt voluptatem alias, voluptates veritatis error fugit molestiae minima facilis exercitationem?</p>
+    <button id="temaclaro">Tema Claro</button>
+    <button id="temaoscuro">Tema Oscuro</button>
+    <script>
+        // Función para establecer el tema claro
+        function setTemaClaro() {
+            document.body.style.backgroundColor = "#fff";
+            document.body.style.color = "#000";
+            localStorage.setItem("theme", "light"); // Guardar tema en localStorage
+        }
+
+        // Función para establecer el tema oscuro
+        function setTemaOscuro() {
+            document.body.style.backgroundColor = "#333";
+            document.body.style.color = "#fff";
+            localStorage.setItem("theme", "dark"); // Guardar tema en localStorage
+        }
+
+        // Verificar el tema guardado en localStorage al cargar la página
+        document.addEventListener("DOMContentLoaded", function() {
+            const temaGuardado = localStorage.getItem("theme");
+            if (temaGuardado === "dark") {
+                setTemaOscuro();
+            } else {
+                setTemaClaro(); // Por defecto, tema claro
+            }
+        });
+
+        // Asignar eventos de clic a los botones
+        document.getElementById("temaclaro").addEventListener("click", setTemaClaro);
+        document.getElementById("temaoscuro").addEventListener("click", setTemaOscuro);
+    </script>
+</body>
+</html>
