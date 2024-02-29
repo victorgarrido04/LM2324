@@ -7,6 +7,20 @@
 </head>
 <body>
     <h1>Lista de tareas</h1>
-    
+
+
+    <script>
+        function guardarTareas(){
+            localStorage.setItem('tareas', JSON.stringify(tareas));
+        }
+
+        function cargarTareas(){
+            const tareas= JSON.parse(localStorage.getItem('tareas'));
+            if(tareas){
+                const lista= document.getElementById('listaTareas');
+                tareas.forEach()
+            }
+        }
+    </script>
 </body>
 </html>
