@@ -37,6 +37,7 @@
       }
       function cambiarFuente(font) {
         document.getElementById("parrafo").style.fontFamily = font.value; // Cambiamos la fuente del parrafo
+        preferencias.fuente = 
       }
       function guardar(){
         localStorage.setItem("preferencias", JSON.stringify(preferencias));
@@ -44,6 +45,7 @@
         //localStorage.setItem('fuente', document.getElementById('parrafo').style.fontFamily);
         //localStorage.setItem('color', document.getElementById('parrafo').style.color);
       }
+      
       function cargarDatos(){
       s = localStorage.getItem("preferencias")
       }
@@ -70,7 +72,7 @@
             document.getElementsById('parrafo').style.color = '#000'; // Negro
         }
       }
-      */
+      
       window.onload = cargarDatos(); // No va a funcionar si no llamamos a cargarDatos;
   </script>
 </body>
