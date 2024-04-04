@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio11</title>
+    <script src="/jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            var conContenido = $("div").html();
+            $("#quitar").click(function(){
+                $("div").empty();
+            });
+            $("#poner").click(function(){
+                $("div").html(conContenido);
+            });
+        });
+    </script>
+</head>
+<body>
+    
+    <div style="width: 500px; height: 100px;background-color: red; color: white; display: flex; align-items: center; justify-content: center;"><p>Este es el texto centrado</p></div>
+    <button id="quitar">Quitar contenido</button>
+    <button id="poner">Poner contenido</button>
+</body>
+</html>

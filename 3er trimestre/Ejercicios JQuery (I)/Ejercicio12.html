@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio11</title>
+    <script src="/jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            $("#MostrarOcultar").click(function(){
+                $("#contenido").toggleClass("hidden");
+            });
+        });
+    </script>
+    
+    <style>
+        div{
+            width: 500px;
+            height: 100px;
+            background-color: red;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hidden{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <div class="contenido" id="contenido">Este es el texto centrado</div> -->
+    <!-- <div><p id="contenido">Este es el texto centrado</p></div> -->
+    <button class="boton" id="MostrarOcultar">Mostrar/Ocultar contenido</button>
+ 
+</body>
+</html>
