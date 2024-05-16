@@ -9,6 +9,7 @@ $(document).ready(function () {
 
             if (data.data.length > 0) {
                 data.data.forEach(function (gif) {
+                    
                     resultadoHTML += `
                     <div>
                         <img src="${gif.images.fixed_height_small.url}" alt="${gif.title}">
